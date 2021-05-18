@@ -1,14 +1,12 @@
-
-var person = {
-    name: "John", age: 31
-};
+let money = prompt("Ваш бюджет на месяц?");
+let time = prompt("Введите дату в фоормате YYYY-MM-DD");
 
 
+let expenses = prompt("Введите обязательную статью расходов в этом месяце");
+let optionqlExpenses = prompt("Во сколько обойдется?");
 
-//var a = prompt("Привет");
-var answer = confirm("Are yo ok?");
-console.log(answer);
+expenses:{
+	"expenses", "optionqlExpenses";
+}
 
-var a = prompt("Привет");
-console.log(a);
-console.log(typeof(a));
+alert(expenses);
